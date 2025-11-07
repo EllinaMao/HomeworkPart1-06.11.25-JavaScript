@@ -1,0 +1,35 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./img/back.png");
+  background-size: cover;
+  background-position: center;
+  padding: 5%;
+}
+
+.taskText {
+  background-color: #e4f4f7f6;
+  border: 3px solid #ccc;
+  padding: 2%;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+
+.taskPlace {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 2%;
+  margin-bottom: 2%;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+
+.inputPart {
+  margin-top: 2%;
+}
